@@ -1,5 +1,4 @@
 import { forwardRef } from "react";
-import { propTypes } from "react-bootstrap/esm/Image";
 import { twMerge } from "tailwind-merge";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {} //extends exisitng html button props
