@@ -36,8 +36,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
         active: pathname === "/",
         href: '/search',
       },
-    ],
-    []
+    ], [pathname]
   );
 
   return (
